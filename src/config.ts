@@ -1,0 +1,71 @@
+export const config = {
+  email: 'ramospablo9@gmail.com',
+  socialMedia: [
+    {
+      name: 'GitHub',
+      url: 'https://github.com/pabloramoss',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/paablo_ramoss',
+    },
+    {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/pabloramoss/',
+    },
+  ],
+  navLinks: [
+    {
+      name: 'About',
+      url: '/#about',
+    },
+    {
+      name: 'Experience',
+      url: '/#jobs',
+    },
+    {
+      name: 'Projects',
+      url: '/#projects',
+    },
+    {
+      name: 'Contact',
+      url: '/#contact',
+    },
+  ],
+  techs: [
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Redux',
+    'Saga',
+    'Node',
+    // "Express",
+    // "MongoDB",
+    // "PostgreSQL",
+    // "GraphQL",
+    // "Apollo",
+    'NextJS',
+    'Docker',
+    'Docker Compose',
+    'API Rest',
+    'Material UI',
+    'Ant Design',
+    'Bootstrap',
+    'Tailwind CSS',
+    'Styled Components',
+    'Jest',
+    'Testing Library',
+    'Cypress',
+    'Storybook',
+    'Jira',
+    'Git',
+    'GitHub',
+    'Photoshop',
+    'Illustrator',
+    'Figma',
+    'Wordpress',
+  ],
+  colors: {
+    background: '#e8e8e8',
+  },
+};
