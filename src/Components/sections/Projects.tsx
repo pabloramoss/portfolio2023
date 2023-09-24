@@ -1,10 +1,30 @@
+'use client';
+import { Element } from 'react-scroll';
+
+import { config } from '@/config';
+
 import SectionTitle from '../SectionTitle';
+import ProjectItem from '../ProjectItem';
 
 export default function Projects() {
   return (
-    <section className="grid gap-4">
-      <SectionTitle title="Other projects" />
-      <div>asdfasdf</div>
+    <section>
+      <Element className="grid gap-10" name="projects">
+        <SectionTitle title="Other projects" />
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
+          {config.projects.map((project, index) => (
+            <ProjectItem
+              key={index}
+              description={project.description}
+              github={project.github}
+              image={project.image}
+              tech={project.tech}
+              title={project.name}
+              url={project.url}
+            />
+          ))}
+        </div>
+      </Element>
     </section>
   );
 }
