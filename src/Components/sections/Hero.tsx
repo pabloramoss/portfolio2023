@@ -28,7 +28,7 @@ export default function Hero() {
       </div>
       <div className="grid">
         <h2 className="text-3xl">
-          I'm{' '}
+          I am{' '}
           <span className="text-green-300 font-extrabold whitespace-nowrap">
             Frontend Developer
           </span>

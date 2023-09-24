@@ -1,10 +1,9 @@
-import Navbar from '@/Components/Navbar';
-
 import './globals.css';
 import type { Metadata } from 'next';
 
 import { Inter } from 'next/font/google';
 
+import Navbar from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
 import ScrollTopButton from '@/Components/ScrollTopButton';
 

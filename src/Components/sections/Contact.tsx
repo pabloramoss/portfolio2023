@@ -17,7 +17,7 @@ export default function Contact() {
           >
             Linkedin
           </a>{' '}
-          if that's more your speed.
+          if that is more your speed.
         </p>
         <ContactBtn />
       </Element>
