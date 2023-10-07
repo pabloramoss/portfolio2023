@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <motion.section
       animate="visible"
-      className="flex flex-col gap-4 h-screen justify-center md:-mt-20 items-center md:items-start"
+      className="flex flex-col gap-4 h-screen justify-center items-center md:items-start"
       id="home"
       initial="hidden"
       transition={{ duration: 0.5, delay: 0.25 }}
