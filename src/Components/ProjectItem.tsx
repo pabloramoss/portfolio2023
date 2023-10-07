@@ -11,7 +11,7 @@ interface Props {
 
 const ProjectItem: React.FC<Props> = ({ title, description, image, url, github, tech }) => {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-zinc-800 dark:border-gray-700 grid">
       <a className="flex justify-center" href={url} target="_blank">
         <img alt="" className="rounded-t-lg" src={image} />
       </a>

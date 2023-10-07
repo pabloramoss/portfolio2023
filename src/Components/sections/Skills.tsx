@@ -1,6 +1,5 @@
 'use client';
 import { Element } from 'react-scroll';
-import Image from 'next/image';
 
 import SectionTitle from '../SectionTitle';
 
