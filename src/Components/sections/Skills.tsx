@@ -9,7 +9,7 @@ export default function Skills() {
     <section>
       <Element className="grid gap-10" name="skills">
         <SectionTitle divider="left" title="Technical skills" />
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row gap-4">
           <div className="grid gap-4">
             <div className="flex items-center gap-4">
               <div>

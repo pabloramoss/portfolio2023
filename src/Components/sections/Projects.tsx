@@ -11,7 +11,7 @@ export default function Projects() {
     <section>
       <Element className="grid gap-10" name="projects">
         <SectionTitle title="Other projects" />
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mx-auto">
           {config.projects.map((project, index) => (
             <ProjectItem
               key={index}
