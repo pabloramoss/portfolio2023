@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <div className="max-w-5xl flex flex-col mx-auto items-center relative">
-          {/* <Navbar /> */}
+          <Navbar />
           {children}
           <ScrollTopButton limit={400} />
           <Footer />
