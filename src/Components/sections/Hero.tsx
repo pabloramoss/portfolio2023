@@ -1,41 +1,37 @@
 'use client';
-import { motion } from 'framer-motion';
 
 import ContactBtn from '../ContactButton';
+import Reveal from '../Reveal';
 
 export default function Hero() {
   return (
-    <motion.section
-      animate="visible"
-      className="flex flex-col gap-4 h-screen justify-center items-center md:items-start"
-      id="home"
-      initial="hidden"
-      transition={{ duration: 0.5, delay: 0.25 }}
-      variants={{
-        hidden: {
-          opacity: 0,
-          y: -100,
-        },
-        visible: {
-          opacity: 1,
-          y: 0,
-        },
-      }}
-    >
-      <div className="grid text-center md:text-start">
-        <h2 className="font-extrabold text-3xl">Hi, my name is</h2>
-        <h1 className="font-extrabold text-7xl">Pablo Ramos</h1>
+    <section className="flex flex-col md:flex-row gap-4 h-screen items-center" id="home">
+      <div className="flex flex-col gap-4 h-full justify-center items-center md:items-start">
+        <div className="grid text-center md:text-start">
+          <Reveal>
+            <h2 className="font-extrabold text-3xl">Hi, my name is</h2>
+          </Reveal>
+          <Reveal>
+            <h1 className="font-extrabold text-7xl">Pablo Ramos</h1>
+          </Reveal>
+        </div>
+        <div className="grid text-center md:text-start">
+          <Reveal>
+            <h2 className="text-3xl">
+              I am{' '}
+              <span className="text-green-300 font-extrabold whitespace-nowrap">
+                Frontend Developer
+              </span>
+            </h2>
+          </Reveal>
+          <Reveal>
+            <h2 className="text-xl">I build things for the web</h2>
+          </Reveal>
+        </div>
+        <Reveal>
+          <ContactBtn />
+        </Reveal>
       </div>
-      <div className="grid text-center md:text-start">
-        <h2 className="text-3xl">
-          I am{' '}
-          <span className="text-green-300 font-extrabold whitespace-nowrap">
-            Frontend Developer
-          </span>
-        </h2>
-        <h2 className="text-xl">I build things for the web</h2>
-      </div>
-      <ContactBtn />
-    </motion.section>
+    </section>
   );
 }
