@@ -77,7 +77,7 @@ export default function Skills() {
               <div>
                 <p className="font-semibold text-xl">Spoken languages</p>
                 <div className="text-slate-400">
-                  <p>English (conversacional)</p>
+                  <p>English (conversational)</p>
                   <p>Spanish (native)</p>
                   <p>Italian (intermediate)</p>
                 </div>

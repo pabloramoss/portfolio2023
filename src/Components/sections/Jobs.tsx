@@ -21,7 +21,14 @@ export default function Jobs() {
               </div>
               <p className="text-gray-500 hidden md:flex">July 2022 - Present</p>
             </div>
-            <div>
+            <div className="grid gap-4">
+              <p>
+                In my role as a React Frontend Developer at Inceptia IA, a company providing
+                AI-powered chatbot services, I have been responsible for building an application
+                from the ground up to automate the creation process of new chatbots. Additionally, I
+                have contributed to the development and design of new features for another webchat
+                project.
+              </p>
               <p className="font-bold text-lg">Chatbot Builder</p>
               <p>
                 Created an app to simplify bot creation process through a visual AI chatbot builder
