@@ -23,7 +23,7 @@ const ProjectItem: React.FC<Props> = ({ title, description, image, url, github, 
       </a>
       <div className="p-5 flex flex-col justify-between">
         <div>
-          <a href="#">
+          <a href={url} target="_blank">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {title}
             </h5>
