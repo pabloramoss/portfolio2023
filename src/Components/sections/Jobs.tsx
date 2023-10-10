@@ -77,9 +77,6 @@ export default function Jobs() {
               </div>
               <div>
                 <Reveal>
-                  <p className="font-bold text-lg">Chatbot Builder</p>
-                </Reveal>
-                <Reveal>
                   <p>
                     Build modern, responsive and full stack serverless web applications with
                     Next.js.
