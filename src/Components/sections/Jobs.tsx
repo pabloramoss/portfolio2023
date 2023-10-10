@@ -44,7 +44,7 @@ export default function Jobs() {
                     Created an app to simplify bot creation process through a visual AI chatbot
                     builder (flowchart). Reduced bot creation process time by 80%.
                   </p>
-                  <video controls height="360" width="640">
+                  <video controls className="py-8" height="360" width="640">
                     <source src="/botManager.webm" type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
@@ -61,7 +61,7 @@ export default function Jobs() {
                     and reduce response time by 50% through the implementation of new features in
                     the human-supported web chat service.
                   </p>
-                  <video controls height="360" width="640">
+                  <video controls className="py-8" height="360" width="640">
                     <source src="/humanService.webm" type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
