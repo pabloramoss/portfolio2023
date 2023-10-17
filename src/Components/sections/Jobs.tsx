@@ -10,7 +10,7 @@ export default function Jobs() {
   return (
     <section>
       <Element className="grid gap-10 pt-10" name="jobs">
-        <SectionTitle divider="left" title="Experience" />
+        <SectionTitle title="Experience" />
         <div className="flex gap-8">
           <Reveal>
             <div className="grid gap-4">
