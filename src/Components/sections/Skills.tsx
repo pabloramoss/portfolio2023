@@ -15,7 +15,7 @@ export default function Skills() {
               <div className="flex items-center gap-4">
                 <div>
                   <p className="font-semibold text-xl">Languages</p>
-                  <p className="text-slate-400">Typescript, Javascript ES5+, HTML, CSS</p>
+                  <p className="text-slate-400">Typescript, Javascript ES6, HTML, CSS</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
